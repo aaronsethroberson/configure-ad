@@ -32,14 +32,27 @@ With the ICMP filter active in Wireshark, use the `ping` command to test connect
 <img src="https://i.ibb.co/YQfbRzR/1.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the next phase of the lab, we will use the `ping` command with the `-t` option and the private IP address of the Linux Virtual Machine. This will initiate a continuous ping that will run indefinitely until it is manually stopped or a response is received. While the Windows 10 VM is actively pinging the Linux VM, we will switch to the Linux VM and block all ICMP traffic using its firewall. This will involve creating a new Network Security Group for the Linux VM, configured to deny ICMP traffic. Consequently, the Linux VM will stop sending echo replies.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.ibb.co/GCY0QM9/2.jpg" height="80%" width="80%" alt="Ping Commmand"/>
+<img src="https://i.ibb.co/Tc8BHGb/3.jpg" height="80%" width="80%" alt="icmp deny"/>
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+As demonstrated below, disabling incoming ICMP traffic results in the message "Request Timed Out." To re-enable ICMP traffic, adjust the settings in the Linux Network Security Group to allow it. To stop the continuous pings, press `Ctrl+C`.
 </p>
 <br />
+<p>
+<img src="https://i.ibb.co/Q8nvKP3/4.jpg" height="80%" width="80%" alt="control c"/>
+</p>
+
+<p>
+Next, we will configure Wireshark on the Windows 10 VM to filter for SSH (Secure Shell) traffic as we prepare to establish an SSH connection to the Linux VM. Since SSH operates without a graphical interface, it provides direct access to the command line. In the Command Prompt, we will execute the command `ssh username@10.0.0.5`, and Wireshark will begin capturing SSH packets as the connection is established.
+</p>
+<br />
+<p>
+<img src="https://i.ibb.co/Q8nvKP3/4.jpg" height="80%" width="80%" alt="control c"/>
+</p>
