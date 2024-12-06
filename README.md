@@ -54,5 +54,44 @@ Next, we will configure Wireshark on the Windows 10 VM to filter for SSH (Secure
 </p>
 <br />
 <p>
-<img src="https://i.ibb.co/Q8nvKP3/4.jpg" height="80%" width="80%" alt="control c"/>
+<img src="https://i.ibb.co/RBy8sB2/5.jpg" height="80%" width="80%" alt="ssh"/>
+</p>
+
+<p>
+While monitoring SSH traffic, we will run several Linux commands and examine the corresponding traffic captured in Wireshark.
+
+* Linux Commands
+  * id
+  * hostname
+  * pwd
+  * touch 
+  * ls
+</p>
+<br />
+<p>
+<img src="https://i.ibb.co/X7GwJBV/6.jpg" height="80%" width="80%" alt="commands"/>
+</p>
+
+<p>
+In Wireshark, we’ll apply a filter for DHCP (Dynamic Host Configuration Protocol), which manages the assignment of network configurations and IP addresses to devices, enabling proper communication. DHCP operates on ports 67 and 68. After applying the DHCP filter, open the command prompt and execute the command `ipconfig /renew`. This command refreshes the device’s network settings by requesting a new IP address.
+</p>
+<br />
+<p>
+<img src="https://i.ibb.co/RBy8sB2/5.jpg" height="80%" width="80%" alt="ssh"/>
+</p>
+
+<p>
+The Domain Name System (DNS) translates human-readable domain names into IP addresses, allowing computers to identify each other on a network. In Wireshark, apply a DNS filter, then open the command line and type `nslookup www.google.com`. This command queries the DNS to obtain the IP address associated with Google.
+</p>
+<br />
+<p>
+<img src="https://i.ibb.co/RBy8sB2/5.jpg" height="80%" width="80%" alt="ssh"/>
+</p>
+
+<p>
+Finally, we’ll filter for RDP (Remote Desktop Protocol) traffic by using the filter `tcp.port==3389`. This will reveal continuous traffic, as RDP streams real-time data between computers, leading to ongoing network activity as live updates are transmitted.
+</p>
+<br />
+<p>
+<img src="https://i.ibb.co/RBy8sB2/5.jpg" height="80%" width="80%" alt="ssh"/>
 </p>
