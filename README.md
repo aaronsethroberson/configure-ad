@@ -77,7 +77,7 @@ In Wireshark, we’ll apply a filter for DHCP (Dynamic Host Configuration Protoc
 </p>
 <br />
 <p>
-<img src="https://i.ibb.co/RBy8sB2/5.jpg" height="80%" width="80%" alt="ssh"/>
+<img src="https://i.ibb.co/nb2ydmH/7.jpg" height="80%" width="80%" alt="ssh"/>
 </p>
 
 <p>
@@ -85,7 +85,7 @@ The Domain Name System (DNS) translates human-readable domain names into IP addr
 </p>
 <br />
 <p>
-<img src="https://i.ibb.co/RBy8sB2/5.jpg" height="80%" width="80%" alt="ssh"/>
+<img src="https://i.ibb.co/sqskLGt/8.jpg" height="80%" width="80%" alt="dns"/>
 </p>
 
 <p>
@@ -93,5 +93,5 @@ Finally, we’ll filter for RDP (Remote Desktop Protocol) traffic by using the f
 </p>
 <br />
 <p>
-<img src="https://i.ibb.co/RBy8sB2/5.jpg" height="80%" width="80%" alt="ssh"/>
+<img src="https://i.ibb.co/MS5txBN/9.jpg" height="80%" width="80%" alt="ssh"/>
 </p>
