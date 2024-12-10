@@ -5,9 +5,9 @@
 <h1>How to Setup and Use a VPN (ProtonVPN) </h1>
 
 <h2>Description</h2>
-In this project, I configured an Azure Virtual Machine (VM) and then downloaded, installed, and used ProtonVPN, a free Virtual Private Network (VPN). <br />
+In this project, I set up an Azure Virtual Machine (VM) and proceeded to download, install, and use ProtonVPN, a free Virtual Private Network (VPN). <br />
 <br />
-A Virtual Private Network (VPN) ensures secure network connections by utilizing encrypted tunnels, providing enhanced security. VPNs are commonly used for two primary purposes: enabling remote work for organizations and accessing content that would otherwise be restricted.
+A VPN establishes secure network connections through encrypted tunnels, offering increased security. They are primarily used for two key purposes: facilitating remote work for organizations and enabling access to otherwise restricted content.
 <br/>
 
 
