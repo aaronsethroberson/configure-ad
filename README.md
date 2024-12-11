@@ -1,4 +1,3 @@
-<p align="center">
 <img src="https://i.imgur.com/nBkHqaM.png" height="80%" width="80%" alt="Setting Up in Azure"/>
 <br />
 
@@ -18,14 +17,12 @@ A VPN establishes secure network connections through encrypted tunnels, offering
 
 <h2>Project Walk-through:</h2>
 
-<p align="center">
 We will start by visiting https://www.whatismyipaddress.com. Next, open Notepad on your computer and record your physical IP address along with your location, as we will need this information later in the project. <br/>
   
 ![image](https://github.com/user-attachments/assets/c5c264c2-04f4-4947-b585-9f2f6540a254)
 
 <br/>
 
-<p align="center">
 Next, we will create a VM in Microsoft Azure
 <br/>
   
@@ -34,7 +31,6 @@ Next, we will create a VM in Microsoft Azure
 
 <br/>
 
-<p align="center">
 Next we will log into the VM with Remote Desktop
 <br/>
   
@@ -42,7 +38,6 @@ Next we will log into the VM with Remote Desktop
 
 <br/>
 
-<p align="center"> 
 After logging into the VM through the remote desktop, we'll revisit https://www.whatismyipaddress.com. Then, reopen Notepad on your personal computer and note the changes in your physical IP address and location. This difference is due to the RDP functioning like a VPN, essentially tunneling a connection between your personal computer and the Virtual Machine
 <br/>
   
@@ -50,7 +45,6 @@ After logging into the VM through the remote desktop, we'll revisit https://www.
 
 <br/>
 
-<p align="center">
 On our personal computers, we will sign up for the free version of ProtonVPN.
 <br/>
   
@@ -58,7 +52,6 @@ On our personal computers, we will sign up for the free version of ProtonVPN.
 
 <br />
 
-<p align="center">
 After we've created our account, we will download the windows version
 <br/>
  
@@ -67,7 +60,6 @@ After we've created our account, we will download the windows version
 
 <br />
 
-<p align="center">
 Once the download begins, we will install the software. After the installation is complete, it will prompt you to enter the login credentials you just created.
 <br/>
   
@@ -75,7 +67,6 @@ Once the download begins, we will install the software. After the installation i
 
 <br/>
 
-<p align="center">
 Selecet "Quick Connect" and it the VPN will randomly choose and start your connection
 <br/>
   
@@ -84,21 +75,12 @@ Selecet "Quick Connect" and it the VPN will randomly choose and start your conne
 
 <br/>
 
-<p align="center">
-Now, if we return to the website https://whatismyipaddress.com and refresh the page, we can observe that our IP address and location have changed.
-<br/>
+Finally, by revisiting the website [WhatIsMyIPAddress.com](https://whatismyipaddress.com) and refreshing the page, we can clearly see that both our IP address and location have been successfully updated. This change confirms that the process we implemented to alter our network identity has been effective.<br/>
 
   
 ![Screenshot 2024-10-01 135323](https://github.com/user-attachments/assets/c0e23d92-b9f8-426d-a8f9-df7f3f98f01f)
 
 <br/>
 
-<p align="center">
-Finally, we'll visit Google and Disney.com to check for any differences based on the location of your VPN server. You might notice changes such as the language or the URL being different.
-<br/>
-  
-![Screenshot 2024-10-01 135753](https://github.com/user-attachments/assets/cc9b0e13-c973-4e09-906e-161c9f0cfd4b)
-![Screenshot 2024-10-01 135840](https://github.com/user-attachments/assets/c07588e8-9dd0-44d3-8d0c-feff4db42280)
-![Screenshot 2024-10-01 135952](https://github.com/user-attachments/assets/7f984a6d-4417-4282-a0a0-3c1a10a9a41f)
 
 
